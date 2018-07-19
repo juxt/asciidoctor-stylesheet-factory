@@ -1,6 +1,84 @@
+$juxtorange: rgb(244,144,29); // LOGO orange
+$darkorange: rgb(214,114,20); // LOGO orange
+//$juxtorange: rgb(255,107,0); // Design orange
+$lightgrey: rgb(245,245,245);
+$verylightgrey: #FCFCFA;
+$darkgrey: #333333;
+//$linkblue: #358ff5;
+$linkblue: $darkorange;
+
 @import "settings/juxt";
+
 @import "components/asciidoc";
 @import "components/awesome-icons";
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+a {
+  color: $darkorange;
+  text-decoration: underline;
+
+  &.fa {
+    text-decoration: none;
+  }
+}
+
+.ulist li, .olist li {
+    margin-left: 2em;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+:not(pre) > code {
+    color: $darkgrey;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+$examplebackground: #d0dee8;
+$examplebackground-inner: #e0eef8;
+
+.exampleblock {
+    background-color: $examplebackground;
+    .title {
+        color: $darkgrey;
+        font-style: italic;
+        padding: 4pt 8pt;
+    }
+    .content {
+        background-color: $examplebackground-inner;
+    }
+    .listingblock {
+        background: white;
+        border: 1px solid $examplebackground;
+        pre {
+            background: #eee;
+        }
+    }
+    button {
+        background: $examplebackground;
+        border: 1px solid $darkgrey;
+        padding: 2pt 6pt;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 80%;
+    }
+}
+
+.code-buttons {
+    float: right
+}
+
+.diagram {
+    padding: 6pt;
+}
+
 
 @font-face {
     font-family: 'RochesterYada';
@@ -16,8 +94,23 @@ $yada-font-family: 'RochesterYada', sans-serif !default;
     font-size: 1.40em;
     font-weight: normal;
     line-height: 70%;
+//    text-transform: lowercase; // Force yada to be all lowercase
 }
 
 h3 .yada {
     font-weight: normal !important;
+}
+
+
+// Colors
+.bg-lightgrey {
+    background-color: $lightgrey;
+}
+
+.bg-juxtorange {
+    background-color: $juxtorange;
+}
+
+.bg-darkorange {
+    background-color: $darkorange;
 }

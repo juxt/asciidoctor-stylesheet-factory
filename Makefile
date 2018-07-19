@@ -1,6 +1,6 @@
-.PHONY: all clean
+.PHONY: compile clean
 
-all:
+compile:
 	compass compile
 
 clean:

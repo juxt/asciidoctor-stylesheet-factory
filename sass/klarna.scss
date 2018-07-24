@@ -1,0 +1,54 @@
+@import "settings/klarna";
+
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+@font-face {
+    font-family: 'RochesterYada';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/public/fonts/RochesterYada.woff2') format('woff2');
+}
+
+$yada-font-family: 'RochesterYada', sans-serif !default;
+
+.yada {
+    font-family: $yada-font-family;
+    font-size: 1.40em;
+    font-weight: normal;
+    line-height: 70%;
+}
+
+@font-face {
+  font-family: 'Klarna Headline';
+  font-weight: 700;
+  src: url("/public/fonts/KlarnaHeadline-Bold.eot");
+  src: url("/public/fonts/KlarnaHeadline-Bold.eot?#iefix") format("embedded-opentype"), url("/public/fonts/KlarnaHeadline-Bold.woff2") format("woff2"), url("../public/fonts/KlarnaHeadline-Bold.woff") format("woff"), url("/public/fonts/KlarnaHeadline-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Klarna Sans';
+  font-weight: 400;
+  src: url("/public/fonts/KlarnaSans-Regular.eot");
+  src: url("/public/fonts/KlarnaSans-Regular.eot?#iefix") format("embedded-opentype"), url("/public/fonts/KlarnaSans-Regular.woff2") format("woff2"), url("/public/fonts/KlarnaSans-Regular.woff") format("woff"), url("/public/fonts/KlarnaSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Klarna Sans';
+  font-weight: 500;
+  src: url("/public/fonts/KlarnaSans-Medium.eot");
+  src: url("/public/fonts/KlarnaSans-Medium.eot?#iefix") format("embedded-opentype"), url("/public/fonts/KlarnaSans-Medium.woff2") format("woff2"), url("/public/fonts/KlarnaSans-Medium.woff") format("woff"), url("/public/fonts/KlarnaSans-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Klarna Sans';
+  font-weight: 700;
+  src: url("/public/fonts/KlarnaSans-Bold.eot");
+  src: url("/public/fonts/KlarnaSans-Bold.eot?#iefix") format("embedded-opentype"), url("/public/fonts/KlarnaSans-Bold.woff2") format("woff2"), url("/public/fonts/KlarnaSans-Bold.woff") format("woff"), url("/public/fonts/KlarnaSans-Bold.ttf") format("truetype"); }
+
+// The list items need to be indented.
+.ulist li, .olist li {
+    margin-left: 2em;
+}
+
+
+footer {
+    background: url(/public/klarna-footer-background.png) no-repeat center center
+}

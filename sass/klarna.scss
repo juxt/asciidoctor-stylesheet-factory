@@ -48,6 +48,49 @@ $yada-font-family: 'RochesterYada', sans-serif !default;
     margin-left: 2em;
 }
 
+.exampleblock {
+    .title {
+        background-color: $secondary-color;
+        padding: 3pt 1em 0 1em;
+        color: white;
+    }
+    background-color: $color3;
+    color: white;
+    .content {
+        background-color: $color3;
+        color: white;
+    }
+    .listingblock {
+        background: white;
+        color: black;
+        border: 1px solid $color3;
+        pre {
+            background: #eee;
+            color: black;
+        }
+    }
+
+}
+
+.listingblock {
+    .content {
+        background-color: #ddd;
+    }
+}
+
+.sidebarblock {
+    background-color: $color4;
+    color: white;
+    .content {
+        background-color: $color4;
+        color: white;
+        .title {
+            background-color: $color4;
+            color: white;
+            font-size: 120%;
+        }
+    }
+}
 
 footer {
     background: url(/public/klarna-footer-background.png) no-repeat center center

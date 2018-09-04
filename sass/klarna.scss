@@ -51,19 +51,20 @@ $yada-font-family: 'RochesterYada', sans-serif !default;
 .exampleblock {
     .title {
         background-color: $secondary-color;
-        padding: 3pt 1em 0 1em;
+        padding: 6pt 1em 0 1em;
         color: white;
     }
-    background-color: $color3;
+    background-color: $secondary-color;
     color: white;
     .content {
-        background-color: $color3;
+        background-color: $secondary-color;
         color: white;
+        border-width: 0;
     }
     .listingblock {
         background: white;
         color: black;
-        border: 1px solid $color3;
+        border: 1px solid $secondary-color;
         pre {
             background: #eee;
             color: black;

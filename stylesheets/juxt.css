@@ -706,6 +706,9 @@ body { background-color: white; }
 
 .diagram { padding: 6pt; }
 
+@font-face { font-family: 'RochesterYada'; font-style: normal; font-weight: 400; src: url("/fonts/RochesterYada.woff2") format("woff2"); }
+.yada { font-family: "RochesterYada", sans-serif; font-size: 1.40em; font-weight: normal; line-height: 70%; }
+
 h3 .yada, #toctitle .yada, .sidebarblock > .content > .title .yada { font-weight: normal !important; }
 
 .bg-lightgrey { background-color: whitesmoke; }

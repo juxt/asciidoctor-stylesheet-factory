@@ -8,7 +8,6 @@ $darkgrey: #333333;
 $linkblue: $darkorange;
 
 $mobile: 700px;
-
 @import "settings/juxt";
 
 @import "components/asciidoc";
@@ -33,7 +32,6 @@ a {
 
 body {
   background-color: white;
-  font-family: 'Roboto', sans-serif;
 }
 
 :not(pre) > code {
@@ -81,28 +79,9 @@ $examplebackground-inner: #e0eef8;
     padding: 6pt;
 }
 
-
-@font-face {
-    font-family: 'RochesterYada';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/public/fonts/RochesterYada.woff2') format('woff2');
-}
-
-$yada-font-family: 'RochesterYada', sans-serif !default;
-
-.yada {
-    font-family: $yada-font-family;
-    font-size: 1.40em;
-    font-weight: normal;
-    line-height: 70%;
-//    text-transform: lowercase; // Force yada to be all lowercase
-}
-
 h3 .yada {
     font-weight: normal !important;
 }
-
 
 // Colors
 .bg-lightgrey {

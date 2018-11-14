@@ -7,6 +7,8 @@ $darkgrey: #333333;
 //$linkblue: #358ff5;
 $linkblue: $darkorange;
 
+$mobile: 700px;
+
 @import "settings/juxt";
 
 @import "components/asciidoc";
@@ -113,4 +115,20 @@ h3 .yada {
 
 .bg-darkorange {
     background-color: $darkorange;
+}
+
+// Content Margin
+
+$content-margin: 42px;
+
+#header {
+    @media only screen and (min-width: $mobile) {
+        margin-left: $content-margin;
+    }
+}
+
+#content {
+    @media only screen and (min-width: $mobile) {
+        margin-left: $content-margin;
+    }
 }

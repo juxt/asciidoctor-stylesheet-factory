@@ -236,12 +236,12 @@ dl dt { margin-bottom: 0.3125em; font-weight: bold; }
 dl dd { margin-bottom: 1.25em; }
 
 /* Abbreviations */
-abbr, acronym { text-transform: uppercase; font-size: 90%; color: rgba(0, 0, 0, 0.8); border-bottom: 1px dotted #ddd; cursor: help; }
+abbr, acronym { text-transform: uppercase; font-size: 90%; color: rgba(0, 0, 0, 0.8); border-bottom: 1px dotted #dddddd; cursor: help; }
 
 abbr { text-transform: none; }
 
 /* Blockquotes */
-blockquote { margin: 0 0 1.25em; padding: 0.5625em 1.25em 0 1.1875em; border-left: 1px solid #ddd; }
+blockquote { margin: 0 0 1.25em; padding: 0.5625em 1.25em 0 1.1875em; border-left: 1px solid #dddddd; }
 blockquote cite { display: block; font-size: 0.9375em; color: rgba(0, 0, 0, 0.6); }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a, blockquote cite a:visited { color: rgba(0, 0, 0, 0.6); }
@@ -249,7 +249,7 @@ blockquote cite a, blockquote cite a:visited { color: rgba(0, 0, 0, 0.6); }
 blockquote, blockquote p { line-height: 1.6; color: rgba(0, 0, 0, 0.85); }
 
 /* Microformats */
-.vcard { display: inline-block; margin: 0 0 1.25em 0; border: 1px solid #ddd; padding: 0.625em 0.75em; }
+.vcard { display: inline-block; margin: 0 0 1.25em 0; border: 1px solid #dddddd; padding: 0.625em 0.75em; }
 .vcard li { margin: 0; display: block; }
 .vcard .fn { font-weight: bold; font-size: 0.9375em; }
 
@@ -262,7 +262,7 @@ blockquote, blockquote p { line-height: 1.6; color: rgba(0, 0, 0, 0.85); }
   h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.6875em; }
   h4 { font-size: 1.4375em; } }
 /* Tables */
-table { background: #fff; margin-bottom: 1.25em; border: solid 1px #dedede; }
+table { background: white; margin-bottom: 1.25em; border: solid 1px #dedede; }
 table thead, table tfoot { background: #f7f8f7; font-weight: bold; }
 table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: rgba(0, 0, 0, 0.8); text-align: left; }
 table tr th, table tr td { padding: 0.5625em 0.625em; font-size: inherit; color: rgba(0, 0, 0, 0.8); }
@@ -283,7 +283,7 @@ pre, pre > code { line-height: 1.45; color: rgba(0, 0, 0, 0.9); font-family: "Dr
 
 .keyseq { color: rgba(51, 51, 51, 0.8); }
 
-kbd { font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace; display: inline-block; color: rgba(0, 0, 0, 0.8); font-size: 0.65em; line-height: 1.45; background-color: #f7f7f7; border: 1px solid #ccc; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; margin: 0 0.15em; padding: 0.2em 0.5em; vertical-align: middle; position: relative; top: -0.1em; white-space: nowrap; }
+kbd { font-family: "Droid Sans Mono", "DejaVu Sans Mono", monospace; display: inline-block; color: rgba(0, 0, 0, 0.8); font-size: 0.65em; line-height: 1.45; background-color: #f7f7f7; border: 1px solid #ccc; -webkit-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; margin: 0 0.15em; padding: 0.2em 0.5em; vertical-align: middle; position: relative; top: -0.1em; white-space: nowrap; }
 
 .keyseq kbd:first-child { margin-left: 0; }
 
@@ -555,7 +555,7 @@ td.hdlist1 { font-weight: bold; padding-bottom: 1.25em; }
 .colist > table tr > td:first-of-type { padding: 0 0.75em; line-height: 1; }
 .colist > table tr > td:last-of-type { padding: 0.25em 0; }
 
-.thumb, .th { line-height: 0; display: inline-block; border: solid 4px #fff; -webkit-box-shadow: 0 0 0 1px #ddd; box-shadow: 0 0 0 1px #ddd; }
+.thumb, .th { line-height: 0; display: inline-block; border: solid 4px white; -webkit-box-shadow: 0 0 0 1px #dddddd; box-shadow: 0 0 0 1px #dddddd; }
 
 .imageblock.left, .imageblock[style*="float: left"] { margin: 0.25em 0.625em 1.25em 0; }
 .imageblock.right, .imageblock[style*="float: right"] { margin: 0.25em 0 1.25em 0.625em; }
@@ -691,12 +691,12 @@ p { margin-bottom: 1.25rem; }
 
 .sidebarblock p, .sidebarblock dt, .sidebarblock td.content, p.tableblock { font-size: 1em; }
 
-.exampleblock > .content { background-color: #fffef7; border-color: #e0e0dc; -moz-box-shadow: 0 1px 4px #e0e0dc; -webkit-box-shadow: 0 1px 4px #e0e0dc; box-shadow: 0 1px 4px #e0e0dc; }
+.exampleblock > .content { background-color: #fffef7; border-color: #e0e0dc; -webkit-box-shadow: 0 1px 4px #e0e0dc; box-shadow: 0 1px 4px #e0e0dc; }
 
 .print-only { display: none !important; }
 
 @media print { @page { margin: 1.25cm 0.75cm; }
-  * { -moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; text-shadow: none !important; }
+  * { -webkit-box-shadow: none !important; box-shadow: none !important; text-shadow: none !important; }
   a { color: inherit !important; text-decoration: underline !important; }
   a.bare, a[href^="#"], a[href^="mailto:"] { text-decoration: none !important; }
   a[href^="http:"]:not(.bare):after, a[href^="https:"]:not(.bare):after { content: "(" attr(href) ")"; display: inline-block; font-size: 0.875em; padding-left: 0.25em; }

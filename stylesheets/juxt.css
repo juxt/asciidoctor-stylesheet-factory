@@ -681,9 +681,13 @@ a.fa { text-decoration: none; }
 
 h1 { font-size: 2em; }
 
-h2 { font-size: 1.75em; }
+h2 { font-size: 1.75em; border-bottom: 1px solid #ddd; }
 
 h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.5em; }
+
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4 { font-weight: 400; }
+
+.sect1 { border-top: 0px !important; }
 
 .ulist li, .olist li { margin-left: 2em; }
 

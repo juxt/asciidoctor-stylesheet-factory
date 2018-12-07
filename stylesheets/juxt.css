@@ -679,6 +679,12 @@ b.conum * { color: inherit !important; }
 a { color: #d67214; text-decoration: underline; }
 a.fa { text-decoration: none; }
 
+h1 { font-size: 2em; }
+
+h2 { font-size: 1.75em; }
+
+h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.5em; }
+
 .ulist li, .olist li { margin-left: 2em; }
 
 body { background-color: white; }

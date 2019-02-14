@@ -2,3 +2,5 @@
 /.sass-cache/
 /Gemfile.lock
 # /stylesheets/
+.cpcache
+juxt_css.jar
